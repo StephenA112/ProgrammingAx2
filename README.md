@@ -1,4 +1,4 @@
-# Programming Fundamentals Assignment2: Pet Day Care Management System
+# Programming Fundamentals Assignment2: Pet Day Care Management System (Simplified submission pathway)
 
 ## Name : Stephen Adamson
 
@@ -7,9 +7,10 @@
 
 ## Chronology of your implementation (what you did first, etc.. )
 - The chronological approach followed that laid out in the "Plan of Attack" section of the assignment brief. I started at the 'models' part of the assignment by first creating the Pet and Dog classes. Creating the code for these classes followed the specification to include the infmoration presented in the UML and detailed in the Fields and Consants. Similarly, the Pet class was created following the specifications presented in the Pet tab. Sample values were included in the code as specified but issues were identified later with calling this code.
+- Code from lectures and labs was used throughout the project.
 
 - I then moved on to create the controllers Daycare and Store.
-- Finally I developed the Driver class using the Driver from the previous assignment as a starting point, assisting in the layout and structure of the code presented. This revised updated and expanded to reflect the Driver specification provided.
+- Finally I developed the Driver class using the Driver from the previous assignment as a starting point, assisting in the layout and structure of the code presented in this project. This revised updated and expanded to reflect the Driver specification provided using code from classes and labs.
 
 ## Main difficulties you came across in your development of solution and how you solved them.
 - In the Pet class, I initially wrote the following code creating a Pet
@@ -40,13 +41,12 @@ When I ran the Driver and entered a new pet and created a list, the sample field
 
 
 ## Any bugs remaining in the solution or unfinished elements of spec 
-- The solution is unfinished and does not include the Cat class, following the message issued on Slack I chose to submit a simplified version of the project.
 - The solution does not appear create an XML file in the source folder correctly when the user adds a new pet. I followed instructions from lab 08 on saving and loading to XML files but could not identifiy the error. xstream (v 1.4.20) was downloaded and a lib folder created containing this. As in lab 08 a 'Store' class was created to store this data in XML and code entered into the Driver. As a result the load function on the menu does not return a list.
 - 
 ## Main learnings from your engagement with assignment
 Main learnings were the need to take a structured approach to the project - the plan of attack was very useful in guiding the process. Feedback from my first assignment was an important consideration in my approach also. Particularly attention to detail to identify typos, syntax errors etc. this helped direct me.
 Source code and final code from other assignments was used and updated, and where necessary using online resources to identify how it could be adapted for this project.
-The material still proves challenging to and errors are still present in the code with examples of above components not functioning. Further revision of the materials and labs is required to deepen my understanding of the subject matter that allows me to engage with and produce functional code. 
+The course material still proves challenging, and errors are still present in the code with examples of above components not functioning. Further revision of the materials and labs is required to deepen my understanding of the subject matter that allows me to engage with, and produce functional code. 
 
 ## Answer the following questions:
      1. Pat Purrs mentioned a problem their friend had with their pet system. What was the issue with that system, and how is your design intended to avoid the same problem?
@@ -60,6 +60,7 @@ The material still proves challenging to and errors are still present in the cod
 
 ## References & Sources
 Mandatory : Please list any references used in your development/ implementation of your submission. 
+
 - Java Docs https://www.jetbrains.com/help/idea/javadocs.html
 - Java Docs: https://www.oracle.com/europe/technical-resources/articles/java/javadoc-tool.html
 - Java Docs: https://www.geeksforgeeks.org/java/java-hello-world-program/
