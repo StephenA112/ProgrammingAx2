@@ -100,6 +100,4 @@ Please consider the following statements and choose one (delete the inappropriat
 
 - This is my work apart from the specific references noted above (and any code from class notes). I understand the code and can decribe any parts of the solution if needs be;
 
-- This is not all my own work - I'm not sure I understand what I am submitting. 
-
 
