@@ -9,7 +9,7 @@
 - The chronological approach followed that laid out in the "Plan of Attack" section of the assignment brief. I started at the 'models' part of the assignment by first creating the Pet and Dog classes. Creating the code for these classes followed the specification to include the infmoration presented in the UML and detailed in the Fields and Consants. Similarly, the Pet class was created following the specifications presented in the Pet tab. Sample values were included in the code as specified but issues were identified later with calling this code.
 - Code from lectures and labs was used throughout the project.
 
-- I then moved on to create the controllers Daycare and Store.
+- I then moved on to create the controllers Daycare and Store claases. Code provided in labs was used as a basis for these classes, specifically Shop V5.0, Shop V8.0, Shop V9.0 and Social Network V9.0.
 - Finally I developed the Driver class using the Driver from the previous assignment as a starting point, assisting in the layout and structure of the code presented in this project. This revised updated and expanded to reflect the Driver specification provided using code from classes and labs.
 
 ## Main difficulties you came across in your development of solution and how you solved them.
@@ -37,7 +37,20 @@
 ```
 When I ran the Driver and entered a new pet and created a list, the sample fields appeared. This was revised at a later stage and sample fields removed (14-34).
 - Having completed the classes and Driver there were a large number of compiling errors found throughout which prevented me compiling the project - an issue experienced in Assignment 1. Reviewing the content identified some simple errors (typos, case sensitive errors) and other issues such as calling incorrect method statements, logic issues, and syntax errors. Some of these were highlighted by IntelliJ and resolved by reviewing course and lab materials.
-- 
+- In creating the sort method in the Daycare class I encountered difficulty in getting it run correctly. I wrote the code using code from Week 10 lecture notes (bubble sort) and Shop V9.0, however it did not compile correctly. I reviewed online source material as referenced, which provided some clarity and then used an AI bot to review the piece of code written. It provided additional lines of code to add to this method (354 and 355). Source referenced in text. This resolved the issue and the list sorted correctly when run through Driver.
+- ```
+      public void sortPetsByName() {
+        for (int j = pets.size() - 1; j >= 0; j--) {
+            for (int i = 0; i < j; i++) {
+
+                String name1 = pets.get(i).getName();
+                String name2 = pets.get(i + 1).getName();
+                if (name1.compareTo(name2) < 0) {
+                    Pet temp = pets.get(i);
+                    pets.set(i, pets.get(i + 1));
+                    pets.set(j, temp);
+                }
+  ```
 
 
 ## Any bugs remaining in the solution or unfinished elements of spec 
@@ -79,6 +92,7 @@ Mandatory : Please list any references used in your development/ implementation 
 - XML: https://www.w3schools.com/xml/xml_whatis.asp
 - Overriding: https://docs.oracle.com/javase/tutorial/java/IandI/override.html#:~:text=The%20ability%20of%20a%20subclass,the%20method%20that%20it%20overrides.
 - Bubble and sorting: https://stackabuse.com/bubble-sort-in-java/
+- Open AI ChatGPT (2024), ChatGPT response to S Adamson, accessed December 2025. 
   
 
 
