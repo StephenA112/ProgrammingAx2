@@ -67,9 +67,9 @@ The course material still proves challenging, and errors are still present in th
      3. Why does Pat want the Driver class to be simple and user-friendly, and how does this relate to the plan to eventually develop a mobile app?
         She wants the code to be simple and well structured to allow transferrability without the need to rewrite it. Simplifying the process by using this as a source code. This will also be beneficial from a UX perspective having a simple menu system.
      4. Pat talked about future expansion of the daycare. What kinds of growth does the system need to support, and how should your code design accommodate this?
-        The system should avoid hard coded limits. XML is noted to be useful when storing data in this manner and with this requirement
+        The system should avoid hard coded limits. XML is noted to be useful when storing data in this manner and with this requirement. Also consideration for memory requirements. It is reasonable to assume multiple users of the mobile app which would data isolation. The format used in this solution saves data locally to the users device.
      6. Besides cats and dogs, what additional animal does Pat plan to include next, and what does this imply for how you structure your inheritance hierarchy?
-        Pat plans to include rabbits and other similar animals. The inheritence hierarchy would follow a similar format - rabbit and future animal classes would support the Pet class. A new class would be created for Rabbit, the driver console menu would need to be updated to compile this and update the menu for the user.
+        Pat plans to include rabbits and other similar animals. The inheritence hierarchy would follow a similar format - rabbit and future animal classes would support the Pet class.  created for Rabbit, the driver console menu would need to be updated to compile this and update the menu for the user. Inheritence layers should be kept to a minimum, max. 1-2 layers, as it could lead to bugs or compiling issues.
 
 ## References & Sources
 Mandatory : Please list any references used in your development/ implementation of your submission. 
